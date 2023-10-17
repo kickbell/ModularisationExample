@@ -1,14 +1,17 @@
 //
 //  Feature2ServiceImplementation.swift
-//  ModularisationStarter
+//  ModularisationVertical
 //
-//  Created by Sashen Singh on 2022/10/01.
+//  Created by Sashen Singh on 2022/10/04.
 //
 
 import Foundation
+import Feature2
 
-final class Feature2ServiceImplementation: Feature2Service {
-    func fetchData(completion: @escaping (Feature2Model) -> ()) {
+public final class Feature2ServiceImplementation: Feature2Service {
+    public init() {}
+
+    public func fetchData(completion: @escaping (Feature2Model) -> ()) {
         let serviceModel = Feature2ServiceModel(data: "Feature2Data")
         let mappedFeatureModel = Feature2Model(feature2ServiceModel: serviceModel)
 
@@ -18,6 +21,6 @@ final class Feature2ServiceImplementation: Feature2Service {
 
 private extension Feature2Model {
     init(feature2ServiceModel: Feature2ServiceModel) {
-        self.data = feature2ServiceModel.data
+        self.init(data: feature2ServiceModel.data)
     }
 }

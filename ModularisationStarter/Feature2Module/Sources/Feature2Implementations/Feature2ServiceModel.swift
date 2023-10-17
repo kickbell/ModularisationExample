@@ -1,8 +1,8 @@
 //
 //  Feature2ServiceModel.swift
-//  ModularisationStarter
+//  ModularisationVertical
 //
-//  Created by Sashen Singh on 2022/10/02.
+//  Created by Sashen Singh on 2022/10/04.
 //
 
 import Foundation

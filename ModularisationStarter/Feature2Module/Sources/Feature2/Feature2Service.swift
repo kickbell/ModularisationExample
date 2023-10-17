@@ -1,12 +1,12 @@
 //
 //  Feature2Service.swift
-//  ModularisationStarter
+//  ModularisationVertical
 //
-//  Created by Sashen Singh on 2022/10/01.
+//  Created by Sashen Singh on 2022/10/04.
 //
 
 import Foundation
 
-protocol Feature2Service {
+public protocol Feature2Service {
     func fetchData(completion: @escaping (Feature2Model) -> ())
 }

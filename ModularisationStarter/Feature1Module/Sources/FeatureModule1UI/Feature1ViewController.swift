@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import Feature1Presentation
 
 public final class Feature1ViewController: UIViewController {
 
@@ -37,12 +38,12 @@ public final class Feature1ViewController: UIViewController {
     private func bindToViewModel() {
         viewModel.stateChanged = { [weak self] state in
             guard let self = self else { return }
-            
+
             switch state {
             case .initial:
                 break
-            case .loadedData(let model):
-                self.dataLabel.text = model.data
+            case .loadedData(let data):
+                self.dataLabel.text = data
             }
         }
     }

@@ -14,8 +14,8 @@
 		968595C528E883B600C80C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968595C428E883B600C80C64 /* Assets.xcassets */; };
 		968595C828E883B600C80C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968595C628E883B600C80C64 /* LaunchScreen.storyboard */; };
 		968595D028E883EB00C80C64 /* AppDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595CF28E883EB00C80C64 /* AppDependencyContainer.swift */; };
-		A8538E202ADF4A9F00318383 /* Feature1Module in Frameworks */ = {isa = PBXBuildFile; productRef = A8538E1F2ADF4A9F00318383 /* Feature1Module */; };
-		A8538E222ADF4AA200318383 /* Feature2Module in Frameworks */ = {isa = PBXBuildFile; productRef = A8538E212ADF4AA200318383 /* Feature2Module */; };
+		A80F1BBD2ADF4E450050AD17 /* Feature1Module in Frameworks */ = {isa = PBXBuildFile; productRef = A80F1BBC2ADF4E450050AD17 /* Feature1Module */; };
+		A80F1BBF2ADF4E470050AD17 /* Feature2Module in Frameworks */ = {isa = PBXBuildFile; productRef = A80F1BBE2ADF4E470050AD17 /* Feature2Module */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8538E222ADF4AA200318383 /* Feature2Module in Frameworks */,
-				A8538E202ADF4A9F00318383 /* Feature1Module in Frameworks */,
+				A80F1BBF2ADF4E470050AD17 /* Feature2Module in Frameworks */,
+				A80F1BBD2ADF4E450050AD17 /* Feature1Module in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,8 +111,8 @@
 			);
 			name = ModularisationStarter;
 			packageProductDependencies = (
-				A8538E1F2ADF4A9F00318383 /* Feature1Module */,
-				A8538E212ADF4AA200318383 /* Feature2Module */,
+				A80F1BBC2ADF4E450050AD17 /* Feature1Module */,
+				A80F1BBE2ADF4E470050AD17 /* Feature2Module */,
 			);
 			productName = ModularisationStarter;
 			productReference = 968595B828E883B300C80C64 /* ModularisationStarter.app */;
@@ -392,11 +392,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A8538E1F2ADF4A9F00318383 /* Feature1Module */ = {
+		A80F1BBC2ADF4E450050AD17 /* Feature1Module */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Feature1Module;
 		};
-		A8538E212ADF4AA200318383 /* Feature2Module */ = {
+		A80F1BBE2ADF4E470050AD17 /* Feature2Module */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Feature2Module;
 		};

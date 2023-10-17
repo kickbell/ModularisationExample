@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import Feature2Presentation
 
 public final class Feature2ViewController: UIViewController {
 

@@ -7,6 +7,9 @@
 
 import Foundation
 import UIKit
+import Feature2Presentation
+import Feature2Implementations
+
 
 public final class Feature2DependencyContainer {
 
