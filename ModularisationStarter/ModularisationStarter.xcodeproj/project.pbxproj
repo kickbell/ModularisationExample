@@ -14,20 +14,6 @@
 		968595C528E883B600C80C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968595C428E883B600C80C64 /* Assets.xcassets */; };
 		968595C828E883B600C80C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968595C628E883B600C80C64 /* LaunchScreen.storyboard */; };
 		968595D028E883EB00C80C64 /* AppDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595CF28E883EB00C80C64 /* AppDependencyContainer.swift */; };
-		968595D328E888C100C80C64 /* Feature1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595D228E888C100C80C64 /* Feature1ViewController.swift */; };
-		968595D528E88A1300C80C64 /* Feature1DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595D428E88A1300C80C64 /* Feature1DependencyContainer.swift */; };
-		968595D828E88ACB00C80C64 /* Feature2DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595D728E88ACB00C80C64 /* Feature2DependencyContainer.swift */; };
-		968595DA28E88B5900C80C64 /* Feature1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595D928E88B5900C80C64 /* Feature1ViewModel.swift */; };
-		968595DD28E88BAB00C80C64 /* Feature1Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595DC28E88BAB00C80C64 /* Feature1Service.swift */; };
-		968595DF28E88CB200C80C64 /* Feature1ServiceImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595DE28E88CB200C80C64 /* Feature1ServiceImplementation.swift */; };
-		968595E128E8930100C80C64 /* Feature2Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595E028E8930100C80C64 /* Feature2Service.swift */; };
-		968595E328E8930C00C80C64 /* Feature2ServiceImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595E228E8930C00C80C64 /* Feature2ServiceImplementation.swift */; };
-		968595E528E8948700C80C64 /* Feature2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595E428E8948700C80C64 /* Feature2ViewController.swift */; };
-		968595E728E8949100C80C64 /* Feature2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595E628E8949100C80C64 /* Feature2ViewModel.swift */; };
-		968595E928E8965C00C80C64 /* Feature1Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595E828E8965C00C80C64 /* Feature1Model.swift */; };
-		968595EC28E8983500C80C64 /* Feature2Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595EB28E8983500C80C64 /* Feature2Model.swift */; };
-		968595F028E9AB4900C80C64 /* Feature1ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595EF28E9AB4900C80C64 /* Feature1ServiceModel.swift */; };
-		968595F228E9AF9100C80C64 /* Feature2ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968595F128E9AF9100C80C64 /* Feature2ServiceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,20 +26,8 @@
 		968595C728E883B600C80C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		968595C928E883B600C80C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		968595CF28E883EB00C80C64 /* AppDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencyContainer.swift; sourceTree = "<group>"; };
-		968595D228E888C100C80C64 /* Feature1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1ViewController.swift; sourceTree = "<group>"; };
-		968595D428E88A1300C80C64 /* Feature1DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1DependencyContainer.swift; sourceTree = "<group>"; };
-		968595D728E88ACB00C80C64 /* Feature2DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature2DependencyContainer.swift; sourceTree = "<group>"; };
-		968595D928E88B5900C80C64 /* Feature1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1ViewModel.swift; sourceTree = "<group>"; };
-		968595DC28E88BAB00C80C64 /* Feature1Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1Service.swift; sourceTree = "<group>"; };
-		968595DE28E88CB200C80C64 /* Feature1ServiceImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1ServiceImplementation.swift; sourceTree = "<group>"; };
-		968595E028E8930100C80C64 /* Feature2Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature2Service.swift; sourceTree = "<group>"; };
-		968595E228E8930C00C80C64 /* Feature2ServiceImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature2ServiceImplementation.swift; sourceTree = "<group>"; };
-		968595E428E8948700C80C64 /* Feature2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature2ViewController.swift; sourceTree = "<group>"; };
-		968595E628E8949100C80C64 /* Feature2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature2ViewModel.swift; sourceTree = "<group>"; };
-		968595E828E8965C00C80C64 /* Feature1Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1Model.swift; sourceTree = "<group>"; };
-		968595EB28E8983500C80C64 /* Feature2Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature2Model.swift; sourceTree = "<group>"; };
-		968595EF28E9AB4900C80C64 /* Feature1ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1ServiceModel.swift; sourceTree = "<group>"; };
-		968595F128E9AF9100C80C64 /* Feature2ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature2ServiceModel.swift; sourceTree = "<group>"; };
+		A8538E1C2ADF49B000318383 /* Feature1Module */ = {isa = PBXFileReference; lastKnownFileType = text; path = Feature1Module; sourceTree = SOURCE_ROOT; };
+		A8538E1D2ADF49E200318383 /* Feature2Module */ = {isa = PBXFileReference; lastKnownFileType = text; path = Feature2Module; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +60,7 @@
 		968595BA28E883B300C80C64 /* ModularisationStarter */ = {
 			isa = PBXGroup;
 			children = (
-				968595EA28E897E100C80C64 /* Models */,
-				968595DB28E88B9F00C80C64 /* Services */,
-				968595EE28E9A75D00C80C64 /* UI */,
+				A8538E1B2ADF498800318383 /* Packages */,
 				968595BB28E883B300C80C64 /* AppDelegate.swift */,
 				968595BD28E883B300C80C64 /* SceneDelegate.swift */,
 				968595BF28E883B300C80C64 /* ViewController.swift */,
@@ -101,55 +73,13 @@
 			path = ModularisationStarter;
 			sourceTree = "<group>";
 		};
-		968595D128E888A900C80C64 /* Feature1 */ = {
+		A8538E1B2ADF498800318383 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				968595D428E88A1300C80C64 /* Feature1DependencyContainer.swift */,
-				968595D228E888C100C80C64 /* Feature1ViewController.swift */,
-				968595D928E88B5900C80C64 /* Feature1ViewModel.swift */,
+				A8538E1D2ADF49E200318383 /* Feature2Module */,
+				A8538E1C2ADF49B000318383 /* Feature1Module */,
 			);
-			path = Feature1;
-			sourceTree = "<group>";
-		};
-		968595D628E88AB900C80C64 /* Feature2 */ = {
-			isa = PBXGroup;
-			children = (
-				968595D728E88ACB00C80C64 /* Feature2DependencyContainer.swift */,
-				968595E428E8948700C80C64 /* Feature2ViewController.swift */,
-				968595E628E8949100C80C64 /* Feature2ViewModel.swift */,
-			);
-			path = Feature2;
-			sourceTree = "<group>";
-		};
-		968595DB28E88B9F00C80C64 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				968595DC28E88BAB00C80C64 /* Feature1Service.swift */,
-				968595DE28E88CB200C80C64 /* Feature1ServiceImplementation.swift */,
-				968595EF28E9AB4900C80C64 /* Feature1ServiceModel.swift */,
-				968595E028E8930100C80C64 /* Feature2Service.swift */,
-				968595E228E8930C00C80C64 /* Feature2ServiceImplementation.swift */,
-				968595F128E9AF9100C80C64 /* Feature2ServiceModel.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		968595EA28E897E100C80C64 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				968595E828E8965C00C80C64 /* Feature1Model.swift */,
-				968595EB28E8983500C80C64 /* Feature2Model.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		968595EE28E9A75D00C80C64 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				968595D128E888A900C80C64 /* Feature1 */,
-				968595D628E88AB900C80C64 /* Feature2 */,
-			);
-			path = UI;
+			path = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,22 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968595D828E88ACB00C80C64 /* Feature2DependencyContainer.swift in Sources */,
-				968595D328E888C100C80C64 /* Feature1ViewController.swift in Sources */,
-				968595DF28E88CB200C80C64 /* Feature1ServiceImplementation.swift in Sources */,
-				968595E328E8930C00C80C64 /* Feature2ServiceImplementation.swift in Sources */,
-				968595E728E8949100C80C64 /* Feature2ViewModel.swift in Sources */,
 				968595C028E883B300C80C64 /* ViewController.swift in Sources */,
-				968595DA28E88B5900C80C64 /* Feature1ViewModel.swift in Sources */,
-				968595E128E8930100C80C64 /* Feature2Service.swift in Sources */,
 				968595BC28E883B300C80C64 /* AppDelegate.swift in Sources */,
-				968595DD28E88BAB00C80C64 /* Feature1Service.swift in Sources */,
-				968595E928E8965C00C80C64 /* Feature1Model.swift in Sources */,
-				968595F228E9AF9100C80C64 /* Feature2ServiceModel.swift in Sources */,
-				968595E528E8948700C80C64 /* Feature2ViewController.swift in Sources */,
-				968595D528E88A1300C80C64 /* Feature1DependencyContainer.swift in Sources */,
-				968595F028E9AB4900C80C64 /* Feature1ServiceModel.swift in Sources */,
-				968595EC28E8983500C80C64 /* Feature2Model.swift in Sources */,
 				968595D028E883EB00C80C64 /* AppDependencyContainer.swift in Sources */,
 				968595BE28E883B300C80C64 /* SceneDelegate.swift in Sources */,
 			);
