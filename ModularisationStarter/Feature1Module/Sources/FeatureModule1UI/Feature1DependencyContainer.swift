@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 import Feature1
 import Feature1Presentation
+import Feature1Implementations
 
 public final class Feature1DependencyContainer {
 
