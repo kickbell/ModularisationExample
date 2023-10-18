@@ -26,7 +26,8 @@ final class AppDependencyContainer {
         }
 
         func makeFeature2ViewController() -> UIViewController {
-            let feature2DependencyContainer = Feature2DependencyContainer()
+            let feature2Service = Feature2ServiceImplementation()
+            let feature2DependencyContainer = Feature2DependencyContainer(service: feature2Service)
             return feature2DependencyContainer.makeFeature2ViewController()
         }
 
